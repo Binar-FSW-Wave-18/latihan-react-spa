@@ -1,0 +1,33 @@
+<%- include('partial/loginHead') %>
+<%- include('partial/loginNavbar') %>
+<main class="login-area text-center">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <h1>Congratulation! Your <span style="color: #F9B23D !important;">ROCK PAPER SCISSORS</span> Game Account
+                has been created!</h1>
+            <h3>Continue to The Game?</h3>
+            <form class="form-input" action="/login" method="post">
+                <h5>Please input your Username and Password to enter The Game</h5>
+                <div class="mb-3 login-form">
+                    <label for="username" class="form-label">Username</label>
+                    <input name="username" type="text" placeholder="usernameMyName (Case Sensitive)"
+                        class="form-control" id="username" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your personal info with anyone else.
+                    </div>
+                </div>
+                <div class="mb-3 password-form">
+                    <label for="current-password" class="form-label">Password</label>
+                    <input name="password" type="password" placeholder="mypas123 (Case Sensitive)" class="form-control"
+                        id="current-password">
+                </div>
+                <a href="http://localhost:3000/login/succes">
+                    <button type="submit" class="btn btn-primary">Enter</button>
+                </a>
+            </form>
+        </div>
+    </div>
+</main>
+
+</body>
+
+</html>
