@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles for page 1 */
+#page1 {
+    background-image: url(../assets/main-bg-use.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    background-color: black!important;
+    opacity: 0.5;
+    height: 100px;
+}
+
+.navbar a {
+    color: white!important;
+    font-weight: 700;
+}
+
+.main1 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main1 h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.main1 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 50px;
+}
+
+.main1 button {
+    width: 250px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.foot1 {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.the-story button {
+    background: none;
+    border-style: none;
+}
+
+.the-story button a {
+    color: white;
+}
+
+.the-story button:active {
+    color: white;
+}
+
+#page2, #page3, #page4, #page5, #page6 {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+/* styles for page 2 */
+#page2 {
+    background-image: url(../assets/the-games-bg-use.png);
+}
+.the-games {
+    height: 100vh;
+}
+
+.the-games h1 {
+    font-size: 56px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+   }
+
+/* styles for page 3 */
+#page3 {
+    background-image: url(../assets/features.jpg);
+   }
+
+.features {
+    height: 100vh;
+   }
+
+.features-box {
+    width: 320px;
+    padding: 0;
+    margin: -15px;
+   }
+
+.features-box ul {
+    margin-top: 50px;
+   }
+
+/* styles for page 4 */
+#page4 {
+    background-image: url(../assets/requirements.png);
+}
+
+#page4 .row {
+    height: 20vh;
+}
+
+#page4 .table {
+    color: white;
+}
+
+/* styles for page 5 */
+#page5 {
+    background-image: url(../assets/top-score-bg-use.png);
+}
+
+.top-score-area {
+    height: 100vh;
+}
+
+.see-more {
+    width: 200px;
+}
+
+.card {
+    background-color: #FFFFFF14;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: orange;
+}
+
+.img-relative {
+    position: relative;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.evan img {
+    border-radius: 50%;
+}
+
+.jada img {
+    border-radius: 50%;
+}
+
+.aaron img {
+    border-radius: 50%;
+}
+
+
+/* styles for page 6 */
+#page6 {
+    background-image: url(../assets/newsletter.png);
+}
+
+#page6 form {
+    color: #fff;
+}
+
+#page6 .form-control {
+    color: orange;
+    background-color: #333;
+    display: inline-block;
+    width: 400px;
+}
+
+.newsletter {
+    height: 80vh;
+}
+
+.newsletter img {
+    size: 60vh;
+}
+
+.subscribe-btn {
+    margin-left: 10px;
+    display: inline-block;
+    width: 285px;
+}
+
+.subscribe-btn button {
+    width: 280px;
+}
+
+.statue-pic {
+    border-radius: 50%!important;
+    opacity: 0.8;
+}
+
+.newsletter-form {
+    line-height: 2.7!important;
+}
+
+footer .navbar {
+    height: 10vh;
+}
+
+.icon-footer {
+    align-self: center;
+    text-align-last: justify;
+}
+
+.left p {
+    color: #555;
+}

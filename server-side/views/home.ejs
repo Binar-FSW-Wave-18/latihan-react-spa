@@ -1,0 +1,57 @@
+<%- include('partial/headHtml') %>
+    <section id="page1">
+        <div class="container-fluid">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand me-5" href="#">LOGO</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">WORK</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CONTACT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ABOUT ME</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex right-navbar">
+                                <a class="nav-link" href="http://localhost:3000/login/register">SIGN UP</a>
+                                <a class="nav-link" href="http://localhost:3000/login">LOGIN</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <main class="container main1 text-center">
+                <h1>PLAY TRADITIONAL GAME</h1>
+                <h3>Experience new traditional game play</h3>
+                <div class="button">
+                    <a href="http://localhost:3000/user/login">
+                        <button type="button" class="btn btn-warning">PLAY NOW</button>
+                    </a>
+                </div>
+            </main>
+
+            <aside class="container foot1 d-flex text-center align-items-center the-story">
+                <h6>THE STORY</h6>
+                <button>
+                    <a href="http://localhost:3000/others#page2"><i class="fa fa-caret-down" style="font-size:36px"></i></i></a>
+                </button>
+            </aside>
+        </div>
+    </section>
+
+<%- include('partial/scriptJS') %>

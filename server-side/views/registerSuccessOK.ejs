@@ -1,0 +1,23 @@
+<%- include('partial/loginHead') %>
+<%- include('partial/loginNavbar') %>
+
+    <h1>Congratulation! Your <span style="color: #F9B23D !important;">ROCK PAPER SCISSORS</span> Game Account
+        has been created!</h1>
+    <h3>Continue to The Game?</h3>
+    <form action="/login/fromreg" method="post">
+        <section>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+        </section>
+        <section>
+            <label for="current-password">Password</label>
+            <input id="current-password" name="password" type="password" autocomplete="current-password" required>
+        </section>
+        <a href="http://localhost:3000/room/create">
+            <button type="submit">LOGIN</button>
+        </a>
+    </form>
+
+</body>
+
+</html>
